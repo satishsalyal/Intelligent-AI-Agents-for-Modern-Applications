@@ -4,7 +4,7 @@
 
 ---
 
-## **Part I — Foundations of Intelligent AI Agents**
+## **Part I  Foundations of Intelligent AI Agents**
 
 ### **Chapter 1. Introduction to Intelligent AI Agents**
 
@@ -443,7 +443,7 @@
 
 ---
 
-# 🎯 Suggested Book Architecture
+# 🎯 Book Architecture
 
 The book would have a very natural progression:
 
