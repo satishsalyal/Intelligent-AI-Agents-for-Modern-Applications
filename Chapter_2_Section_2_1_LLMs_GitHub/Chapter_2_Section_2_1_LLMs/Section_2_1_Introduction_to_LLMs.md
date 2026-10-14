@@ -278,4 +278,4 @@ The objective is to understand that an LLM's response depends not only on its le
 
 ---
 
-**Transition to Section 2.2:** To understand how LLMs acquire their capabilities, the next section examines neural networks and deep learning, including neurons, layers, weights, activation functions, loss functions, and the optimisation procedures used to train neural models.
+
