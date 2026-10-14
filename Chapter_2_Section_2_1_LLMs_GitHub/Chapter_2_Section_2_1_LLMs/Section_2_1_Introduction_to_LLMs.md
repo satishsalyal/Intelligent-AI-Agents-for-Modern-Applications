@@ -20,9 +20,7 @@ A *token* is a unit of text processed by a language model. Depending on the toke
 
 Many generative LLMs use an autoregressive language-modelling objective:
 
-\[
-P(x_1,x_2,\ldots,x_n)=\prod_{t=1}^{n}P(x_t\mid x_1,\ldots,x_{t-1})
-\]
+$$ P(x_t=i\mid x_{<t})=\frac{e^{z_i}}{\sum_{j=1}^{V}e^{z_j}} $$
 
 where \(x_1,\ldots,x_n\) represent tokens and \(P(x_t\mid x_1,\ldots,x_{t-1})\) is the probability of the next token given preceding tokens. Other language models use different objectives, including masked-token prediction.
 
